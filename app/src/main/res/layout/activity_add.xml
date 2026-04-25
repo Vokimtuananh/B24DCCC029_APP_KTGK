@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <EditText android:id="@+id/edtMa" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Mã tài liệu"/>
+    <EditText android:id="@+id/edtTen" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Tên tài liệu"/>
+    <EditText android:id="@+id/edtGia" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Giá tiền" android:inputType="numberDecimal"/>
+    <Spinner android:id="@+id/spLoai" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+    <EditText android:id="@+id/edtBienPhu" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Số trang / Kỳ phát hành / Dung lượng" android:inputType="numberDecimal" android:layout_marginTop="10dp"/>
+    <Button android:id="@+id/btnSave" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Lưu tài liệu" android:layout_marginTop="20dp"/>
+</LinearLayout>
